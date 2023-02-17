@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIViewFileSDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of CIViewFileSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -41,5 +41,5 @@ TODO: Add long description of the pod here.
   
   s.frameworks = 'QuickLook'
   
-  s.dependency 'SSZipArchive', '2.5.2'
+  s.dependency 'SSZipArchive', '2.4.3'
 end
