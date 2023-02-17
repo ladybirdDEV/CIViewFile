@@ -1,0 +1,6 @@
+framework module CIViewFileSDK {
+  umbrella header "CIViewFileSDK.h"
+
+  export *
+  module * { export * }
+}
