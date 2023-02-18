@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIViewFileSDK'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of CIViewFileSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   }
 
   s.vendored_frameworks = "CIViewFile/CIViewFileSDK.framework"
-  s.resource = ['CIViewFile/CIViewFile.bundle']
+  s.resource = ['CIViewFile/Assets/CIViewFile.bundle']
   
   s.frameworks = 'QuickLook'
   
