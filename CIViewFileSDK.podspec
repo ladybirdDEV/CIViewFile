@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CIViewFileSDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of CIViewFileSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -26,6 +26,8 @@ TODO: Add long description of the pod here.
   s.author           = { 'idbeny' => 'idbeny@163.com' }
   s.source           = { :git => 'https://github.com/ladybirdDEV/CIViewFile.git', :tag => s.version.to_s }
   
+  s.static_framework = true
+
   s.swift_version = '5.0'
   s.ios.deployment_target = '13.0'
   
