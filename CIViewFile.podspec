@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint CIViewFileSDK.podspec' to ensure this is a
+# Be sure to run `pod lib lint CIViewFile.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CIViewFileSDK'
-  s.version          = '0.1.7'
-  s.summary          = 'A short description of CIViewFileSDK.'
+  s.name             = 'CIViewFile'
+  s.version          = '0.1.8'
+  s.summary          = 'A short description of CIViewFile.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,10 +38,10 @@ TODO: Add long description of the pod here.
       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
 
-  s.vendored_frameworks = "CIViewFile/CIViewFileSDK.framework"
+  s.vendored_frameworks = "CIViewFile/CIViewFile.framework"
   s.resource = ['CIViewFile/Assets/CIViewFile.bundle']
   
-  s.frameworks = 'QuickLook'
-  
   s.dependency 'SSZipArchive', '2.4.3'
+  
+  s.frameworks = 'QuickLook'
 end
